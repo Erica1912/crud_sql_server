@@ -9,7 +9,7 @@ Hacer consultas básicas del CRUD usando el módulo de npm llamado "pg", el cual
 
 1. Node JS :heavy_check_mark:
 2. Sql Server :heavy_check_mark: 
-3. Bootstrap :heavy_check_mark: 
+3. Bootstrap :heavy_check_mark:
 
 
 **Erica Ruiz**
