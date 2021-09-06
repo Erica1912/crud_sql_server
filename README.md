@@ -12,6 +12,27 @@ Hacer consultas básicas del CRUD usando el módulo de npm llamado "pg", el cual
 3. Bootstrap :heavy_check_mark:
 
 
+#### Comandos :computer:
+
+Después de tener instalado el Node JS creamos el archivo package.json con los comandos
+
+```python
+npm init -y
+```
+
+Intalaremos algunos módulos que vamos a necesitar para crear nuestro crud
+
+- **mssql** un módulo que está relacionado como sql server
+- **express** es un módulo que nos va ayudar con las rutas
+- **cors** nos da los permisos para trabajar con varias ip
+- **morgan**
+- **dotenv** son las variables de entorno para no tenerlas directamente en nuestro código
+
+```
+npm install mssql express morgan  cors dotenv
+```
+
+
 **Erica Ruiz**
 
 
