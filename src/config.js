@@ -1,2 +1,6 @@
-import { express } from "express";
-const app = express()
+import {config} from 'dotenv'
+config()
+
+export default {
+    port: process.env.PORT || 4000
+}
