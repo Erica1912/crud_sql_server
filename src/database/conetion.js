@@ -24,10 +24,14 @@ const dbSetings = {
        
   
 };
-async function getConetion() {
-    const pool = await sql.connect(dbSetings);
-    const resul = await pool.request().query("SELECT * FROM dbo.USUARIOS");
-    console.log(resul);
+export async function getConetion() {
+    try{
+        const pool = await sql.connect(dbSetings);
+        return pool;        
+    }
+    catch(err){
+        console.log(err);
+    }
 };
 
-getConetion();
+
